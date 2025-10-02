@@ -1,0 +1,17 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .cells {
+    display: flex;
+    gap: 6px;
+  }
+
+  .coef {
+    margin-left: 15px;
+    font-weight: bold;
+    color: gold;
+    font-size: 18px;
+  }
+}
