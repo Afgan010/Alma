@@ -12,7 +12,7 @@ const AppleOfFortune = () => {
   const [gameStarted, setGameStarted] = useState(false);
 
   const handleWin = (coef) => {
-    setWinnings((prev) => +(prev + bet * coef).toFixed(2));
+    setWinnings((prev) => +(prev - bet + bet * coef).toFixed(2));
   };
 
   const handleLose = () => {
